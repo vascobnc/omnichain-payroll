@@ -1,0 +1,14 @@
+{
+  "name": "omnichain-payroll-evm",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run deploy.js --network arbitrum"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "dotenv": "^17.0.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.1"
+  }
+}
