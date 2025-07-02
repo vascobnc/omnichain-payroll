@@ -146,3 +146,8 @@ solana/.anchor
 # === Solidity (Hardhat) ===
 /evm/artifacts
 /evm/cache
+
+# Hardhat local deployments & secrets
+evm/.env
+evm/package-lock.json
+evm/deployments/
